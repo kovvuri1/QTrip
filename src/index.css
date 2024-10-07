@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Header CSS */
+:root{
+    --pos:absolute;
+}
+.header{
+    display: flex;
+    height: 50px;
+    width: 99vw;
+    font-weight:lighter;
+    background-color: #f8f9fa;
+    position: relative;
+ }
+ #tit{
+    position: absolute;
+    top: 19px;
+    left: 25px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.home{
+    font-weight: 100;
+    position: absolute;
+    top: 2px;
+    right: 170px;
+ }
+ #login{
+    color: #f19537;
+    font-size: 18px;
+    position: var(--pos);
+    right: 180px;
+    top: 19px;
+}
+#reservation{
+    position:var(--pos);
+    right: 350px;
+    top: 21px;
+}
+#front_home{
+    position:var(--pos);
+    right: 520px;
+    top: 21px;  
+}
+#btn{
+    position:var(--pos);
+    top: 8px;
+    right: 30px;
+    color: white;
+    background-color: #f19537;
+    border-radius: 5px;
+    border: none;
+    height: 41px;
+    width: 109px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* FOOTER CSS */
+.container{
+    position: absolute;
+    top: 258vh;
+    height: 40px;
+    width: 99vw;
+    text-align: left;
+    color: gray;
+    padding-top: 8px;
+    background-color: #f1f1f1;
+}
+/* Qtrip Main Page Background Css*/
+.Qbg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg");
+    height: 70vh;
+    width: 98.9vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 0px;  
+}
+.Welcome_Tit{
+    width: 800px;
+    height: 100px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 34%;
+    left: 23%;
+    text-align: center;
+    font-size: 20px;
+}
+.para{
+    font-size: 21px;
+    padding: 15px;
+    font-weight: lighter; 
+}
+#input{
+  margin-top: 10px;
+    width: 1036px;
+    height: 55px;
+    position: absolute;
+    bottom: 160px;
+    left: 220px;
+    border-radius: 10px;
+    border: none;
+}
+#input::placeholder{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/* Qtrip Cards Main page css */
+.cardm1{
+    width: 94vw;
+     position:relative;
+     top:85vh;
+     left: 55px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap:wrap;
+     gap: 30px;  
+ }
+ .innerdata{
+    position: relative;
+    height: 554px;
+    width: 336px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.data{
+        position: absolute;
+        bottom: 30px;
+        left: 90px;
+        z-index: 1;
+        letter-spacing: 2px;
+        text-align: center;
+        color: white;
+}
+img[alt="cardimg"]{
+    height: 554px;
+    width: 336px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img[alt="cardimg"]:hover{
+    transform: scale(1,1.04);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.784), rgba(0, 0, 0, 0.5));
+}
+
+#BenMainDiv{
+    
+    padding:10px 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10vh;
+    
+  }
+  .BenSubCards{
+    height: 350px;
+    width: 312px;
+    border: solid 1px #99999993 ;
+    position: relative;
+    margin: 0px 30px 30px 0px;
+    border-radius: 10px;
+    color: #000;
+   
+  }
+  .BenSubCards img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .BenSubCards img:hover{
+    filter:brightness(50%);
+  }
+  .category{
+    width: 160px;
+    color: #fff;
+    background-color: darkorange;
+    padding: 10px 10px;
+    position: absolute;
+    top: 20px;
+    right: -15px;
+    border-radius: 10px 0px 0px 10px ;
+    text-align: center;
+    text-decoration: solid;
+  }
+  .h51{
+    font-size:18px;
+    position: absolute;
+    bottom: 52px;
+    padding:10px
+  }
+  .price{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    padding:10px
+  }
+  .Duration{
+    font-size: 16px;
+    position: absolute;
+    bottom: 12px;
+    padding:10px
+  }
+  .DurationValue{
+    font-size: 1rem;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding:10px
+  }
+
